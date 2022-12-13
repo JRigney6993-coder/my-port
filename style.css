@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+img {
+    padding: 1%;
+}
+
 :root {
     --bg-color: #101010;
     --text-color: rgb(16, 16, 16);
@@ -33,7 +37,7 @@ header {
     background: transparent;
     padding: 28px 12%;
     transition: all .50s ease;
-    background: #000000;
+    background: #0b0b0b;
 }
 
 .logo {
@@ -41,8 +45,8 @@ header {
     align-items: center;
 }
 
-.ccLogo {
-    width: 4rem;
+.me {
+    width: 5rem;
     margin-right: 7px;
 }
 
@@ -114,6 +118,8 @@ header {
 
 .container {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     color: var(--text-color);
     top: 130px;
 }
@@ -123,6 +129,7 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
+    padding: 1%;
 }
 
 .text {
@@ -142,6 +149,22 @@ header {
     width: 40px;
     height: 3px;
     margin: 0 auto;
+}
+
+.skills {
+    width: 50%;
+}
+.about {
+    width: 50%;
+}
+
+.example {
+    width: 50%;
+    text-align: center;
+}
+
+.goals {
+    width: 50%;
 }
 
 .progress-container {
@@ -223,5 +246,25 @@ header {
 
     .navbar.open {
         right: 2%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .skills {
+        width: 100%;
+    }
+    
+    .about {
+        width: 100%;
+    }
+
+    .example {
+        width: 100%;
+    }
+    
+    .goals {
+        width: 100%;
     }
 }
