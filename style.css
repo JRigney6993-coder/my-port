@@ -155,6 +155,8 @@ header {
 
 footer {
     display: flex;
+    position: fixed;
+    bottom: 0;
     background-color: #000000;
     height: 5rem;
     width: 98.75vw;
