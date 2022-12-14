@@ -37,7 +37,7 @@ header {
     background: transparent;
     padding: 28px 12%;
     transition: all .50s ease;
-    background: #0b0b0b;
+    background: #000000;
 }
 
 .logo {
@@ -151,45 +151,28 @@ header {
     margin: 0 auto;
 }
 
-.skills {
-    width: 50%;
-}
-.about {
-    width: 50%;
-}
-
-.example {
-    width: 50%;
-    text-align: center;
-}
-
-.goals {
-    width: 50%;
-}
-
-.progress-container {
-    display: flex;
-    margin: 1rem auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-}
-
-.progress-bar {
-    background-color: var(--header-text-color);
-    width: 200px;
-    height: 10px;
-    margin: 0 auto;
-}
-
-.progress-bar-percent {
-    background-color: var(--main-color);
-    height: 10px;
-
-}
-
 /* Footer  */
+
+footer {
+    display: flex;
+    background-color: #000000;
+    height: 5rem;
+    width: 98.75vw;
+}
+
+.social {
+    width: 49vw;
+    display: flex;
+    gap: 10px;
+    padding: 1.35rem;
+    justify-content: end;
+}
+
+#copyright {
+    width: 49vw;
+    padding: 1.55rem;
+    text-align: start;
+}
 
 /* Media  */
 
@@ -255,7 +238,7 @@ header {
     .skills {
         width: 100%;
     }
-    
+
     .about {
         width: 100%;
     }
@@ -263,7 +246,7 @@ header {
     .example {
         width: 100%;
     }
-    
+
     .goals {
         width: 100%;
     }
