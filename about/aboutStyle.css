@@ -1,0 +1,39 @@
+.skills {
+    width: 50%;
+}
+
+.about {
+    width: 50%;
+}
+
+.example {
+    width: 50%;
+    text-align: center;
+}
+
+.goals {
+    width: 50%;
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.progress-bar {
+    background-color: var(--header-text-color);
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.progress-bar-percent {
+    background-color: var(--main-color);
+    height: 10px;
+
+}
